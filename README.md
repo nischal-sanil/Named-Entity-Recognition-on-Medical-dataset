@@ -6,6 +6,7 @@ The [scrap.py](https://github.com/nischal-sanil/Named-Entity-Recognition-on-Medi
 Also, This repository implements a Named entity recognition using a CNN-LSTM model trained using the i2b2 dataset, which can be found [here](https://www.i2b2.org/). However, The dataset is not present in the repository as I2B2 has a strict Data use policy, but can be accessed by contacting and signing a Data use agreement. I2B2 are very quick with their response. 
 
 
+The Model achitecture is shown below:
 ![CNN-LSTM](https://github.com/nischal-sanil/Named-Entity-Recognition-on-Medical-dataset/blob/master/Named-Entity-Recognition-BidirectionalLSTM-CNN-CoNLL/model.png)
 
 
@@ -24,3 +25,8 @@ The annotations Include:
 10. found in list/narrative of the text (marker “ln”)
 
 The training logs and sample output is present in the [LSTM.ipynb](https://github.com/nischal-sanil/Named-Entity-Recognition-on-Medical-dataset/blob/master/Named-Entity-Recognition-BidirectionalLSTM-CNN-CoNLL/LSTM.ipynb). 
+
+
+References:
+1. [I2B2 to CNN_LSTM](https://github.com/mxhofer/i2b2_2009-to-CoNLL)
+2. [Named-Entity-Recognition-BLSTM-CNN-CoNLL](https://github.com/mxhofer/Named-Entity-Recognition-BidirectionalLSTM-CNN-CoNLL)
